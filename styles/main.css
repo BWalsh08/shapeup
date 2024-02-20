@@ -83,7 +83,7 @@ header h2 {
 }
 
 #nav_list h2 {
-    margin-bottom: 5px;
+    margin-bottom: .5em;
 }
 
 #nav_list ul {
@@ -92,6 +92,26 @@ header h2 {
     flex-direction: column;
     align-items: center;
     gap: 5px;
+}
+
+#nav_list li {
+    width: 90%;
+    border: 1px solid steelblue;
+    border-radius: 5px;
+}
+
+#nav_list a {
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: lightsteelblue;
+    padding: .5em;
+    color: black;
+}
+
+#nav_list a:hover {
+    background-color: steelblue;
+    color: white;
 }
 
 /* End of NAV 
